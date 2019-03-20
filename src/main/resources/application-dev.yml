@@ -1,0 +1,6 @@
+server:
+  port: 9086 #工程端口
+  servlet:
+    context-path: /server 
+logging:
+  config: classpath:config/logback.xml
